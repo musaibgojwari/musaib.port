@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <header className='w-full px-24 py-8 flex justify-between items-center'>
-       <navbar className='space-x-4'>
+       <navbar className='space-x-4 text-dark'>
             <CustomLinks href="/" title="Home"></CustomLinks>
             <CustomLinks href="/about" title="About"></CustomLinks>
             <CustomLinks href="/projects" title="Project"></CustomLinks>
@@ -49,7 +49,7 @@ export default function Navbar() {
             }}
             className='w-6'
             target='_blank'>
-              <GithubIcon />
+              <GithubIcon className="text-dark" />
             </motion.a>
             <motion.a href="https://www.linkedin.com" 
             whileHover={{
